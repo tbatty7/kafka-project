@@ -21,11 +21,6 @@ public class KafkaApplicationTests {
 	@Test
 	public void sendMsg() {
 		publisher.sendMessage("hello world");
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
 	}
 
 }

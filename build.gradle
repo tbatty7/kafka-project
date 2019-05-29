@@ -19,4 +19,8 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.kafka:spring-kafka-test'
 	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.9'
+//	compile group: 'org.apache.curator', name: 'apache-curator', version: '4.2.0', ext: 'pom'
+//	compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.1.5.RELEASE'
+//	testCompile group: 'org.apache.curator', name: 'curator-test', version: '4.2.0'
+//	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zookeeper-all', version: '2.1.1.RELEASE'
 }
